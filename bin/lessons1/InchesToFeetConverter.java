@@ -14,7 +14,7 @@ public class InchesToFeetConverter {
 	        int feets = inches/12;
 	       int inc = inches%12;
 	        if (inches <12){
-	            System.out.println(""+inches+'"');
+	            System.out.println(""+inches+'"'+"inches");
 	        }
 	        else {
 	            System.out.println(feets+"'feets "+inc+'"'+"inches");
