@@ -3,14 +3,17 @@ package lessons1;
 public class Assignment3 {
 
 	public static void main(String[] args) {
-		int d = 0;
-        for(int x = 0;x<=10000;x++){
 
-        		x*=10;
-        		d+=x+1;
+        for(int i=1;i<=5;i++){
+            for(int x=1 ; x<=i;x++){
 
-     System.out.println("result "+ d);
+                System.out.print(x);
+
+            }
+            System.out.println();
+
         }
+
 
 	}
 
