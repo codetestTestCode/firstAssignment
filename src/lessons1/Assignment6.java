@@ -19,6 +19,7 @@ public class Assignment6 {
 	                      System.out.print(x);
 	                     }
 	                  System.out.println(); }
+	              number.close();
 
 	          } catch (Exception e) {
 	            System.out.println("Please Try Again Type Number");
