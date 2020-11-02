@@ -1,6 +1,7 @@
 package lessons1;
 
 import java.util.Scanner;
+import java.util.InputMismatchException;
 
 public class Assignment6 {
 
@@ -21,7 +22,7 @@ public class Assignment6 {
 	                  System.out.println(); }
 	              number.close();
 
-	          } catch (Exception e) {
+	          } catch (InputMismatchException e) {
 	            System.out.println("Please Try Again Type Number");
 
 	        }
